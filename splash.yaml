@@ -1,0 +1,14 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/jurix_black.png"
+  image_dark: assets/logos/jurix_white.png
+
+  # Android 12+ के लिए (नया API)
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/jurix_black.png  # Android 12+ के लिए GIF के बजाय PNG उपयोग करें
+    image_dark: assets/logos/jurix_white.png
+
+  web: false
