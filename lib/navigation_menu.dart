@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:jurix_app/features/personalization/screens/settings/settings.dart';
 import 'package:jurix_app/features/shop/screens/home/home.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/helpers/helper_functions.dart';
 
 import 'features/shop/screens/store/store.dart';
+import 'features/shop/screens/wishlist/wishlist.dart';
 
 class NavigationManu extends StatelessWidget {
   const NavigationManu({super.key});
@@ -43,7 +45,7 @@ class NavigationController extends GetxController {
   final screens = [
     const HomeScreen(),
     const StoreScreen(),
-    Container(color: Colors.orange),
-    Container(color: Colors.blue),
+    const FavouriteScreen(),
+    const SettingsScreen(),
   ];
 }

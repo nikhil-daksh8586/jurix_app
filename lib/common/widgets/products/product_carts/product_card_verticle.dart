@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/common/styles/shadows.dart';
 import 'package:jurix_app/common/widgets/custom_shapes/container/rounded_container.dart';
@@ -9,8 +11,10 @@ import 'package:jurix_app/utils/constants/image_strings.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:jurix_app/utils/helpers/helper_functions.dart';
 
+import '../../../../features/shop/screens/product_detailes/product_detail.dart';
 import '../../icon/t_circular_icon.dart';
 import '../../text/product_price_text.dart';
+import '../../text/t_brand_title_text_with_verified_icon.dart';
 
 class TProductCardVerticle extends StatelessWidget {
   const TProductCardVerticle ({super.key});
@@ -20,7 +24,7 @@ class TProductCardVerticle extends StatelessWidget {
     final dark = THelperFunctions.isDarkMode(context);
 
     return GestureDetector(
-      onTap: (){},
+      onTap: () => Get.to(() => const ProductDetail()),
       child: Container(
         width: 180,
         padding: const EdgeInsets.all(1),
@@ -62,21 +66,16 @@ class TProductCardVerticle extends StatelessWidget {
               ),
             ),
             const SizedBox(height: TSizes.spaceBtwItems / 2,),
-            /// Details
-            Padding(
-              padding: const EdgeInsets.only(left: TSizes.sm),
+
+            /// -- Details
+            const Padding(
+              padding:  EdgeInsets.only(left: TSizes.sm),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TProductTitleText(title: 'Green Nike Air Shoe', smallSize: true,),
-                  const SizedBox(height: TSizes.spaceBtwItems / 2,),
-                  Row(
-                    children: [
-                      Text('Nike', overflow: TextOverflow.ellipsis, maxLines: 1, style: Theme.of(context).textTheme.labelMedium,),
-                      const SizedBox(width: TSizes.xs,),
-                      Icon(Iconsax.verify5, color: TColors.primary, size: TSizes.iconXs,)
-                    ],
-                  ),
+                  SizedBox(height: TSizes.spaceBtwItems / 2,),
+                  TBrandTitleWithVerifiedIcon(title: 'Nike',),
                 ],
               ),
             ),

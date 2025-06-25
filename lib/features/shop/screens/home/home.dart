@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jurix_app/common/widgets/custom_shapes/container/circular_container.dart';
 import 'package:jurix_app/common/widgets/products/product_carts/product_card_verticle.dart';
 import 'package:jurix_app/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:jurix_app/features/shop/screens/home/widgets/home_categories.dart';
@@ -9,11 +8,8 @@ import 'package:jurix_app/utils/constants/image_strings.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 import '../../../../common/widgets/custom_shapes/container/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/container/search_container.dart';
-import '../../../../common/widgets/images/T_rounded_image.dart';
 import '../../../../common/widgets/layouts/grid_layout.dart';
 import '../../../../common/widgets/text/section_heading.dart';
-import '../../../../common/widgets/verticle_image_text/verticle_image_text.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -40,19 +36,20 @@ class HomeScreen extends StatelessWidget {
                     padding: EdgeInsets.only(left: TSizes.defaultSpace),
                     child: Column(
                       children: [
-                        /// -- Heading
+                        /// -- Heading --
                         TSectionHeading(
                           title: "Popular Categories",
                           showActionButton: false,
                           textColor: TColors.white,
                         ),
-                        const SizedBox(height: TSizes.spaceBtwItems),
+                        SizedBox(height: TSizes.spaceBtwItems),
 
                         /// Categories
                         THomeCategories(),
                       ],
                     ),
                   ),
+                  const SizedBox(height: TSizes.spaceBtwSections)
                 ],
               ),
             ),
@@ -77,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: TSizes.spaceBtwSections),
 
                   /// --- Popular Products ---
-                  TGridLayout(itemCount: 4, itemBuilder: (_, index) => TProductCardVerticle(), mainAxisExtent: 200,),
+                  TGridLayout(itemCount: 4, itemBuilder: (_, index) => TProductCardVerticle()),
                 ],
               ),
             ),

@@ -1,5 +1,6 @@
 
 /// this class contains all the App Text in String format.
+library;
 
 class TTexts{
 
@@ -39,6 +40,7 @@ class TTexts{
   static const String tContinue  = "Continue";
   static const String submit  = "Submit";
   static const String done  = "Done";
+  static const String logout  = "Logout";
 
   // -- Authentication Heading Text
   static const String loginTitle = "Welcome back";

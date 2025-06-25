@@ -1,7 +1,5 @@
 
 //This class contains all the App Images in string formats.
-import 'package:flutter/cupertino.dart';
-import 'package:iconsax/iconsax.dart';
 
 class TImages {
 
@@ -27,8 +25,8 @@ class TImages {
 
   // -- Category Icons
   static const String sportIcon = "";
-  static const String clothIcon = "";
-  static const String shoeIcon = "";
+  static const String clothIcon = "assets/images/product/icons8-cloth-64.png";
+  static const String shoeIcon = "assets/images/product/icons8-shoes-47.png";
   static const String cosmeticIcons = "";
   static const String animalIcon = "";
   static const String toyIcon = "";
