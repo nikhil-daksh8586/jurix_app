@@ -11,7 +11,8 @@ import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:jurix_app/utils/helpers/helper_functions.dart';
 
 import '../../../../common/widgets/brands/brand_card.dart';
-
+import '../cart/cart.dart';
+import 'package:get/get.dart';
 class StoreScreen extends StatelessWidget {
   const StoreScreen({super.key});
 
@@ -25,7 +26,7 @@ class StoreScreen extends StatelessWidget {
             'Store',
             style: Theme.of(context).textTheme.headlineMedium,
           ),
-          actions: [TCartCounterIcon(onPressed: () {})],
+          actions: [TCartCounterIcon(onPressed: ()=> Get.to(() => const CartScreen()))],
         ),
         body: NestedScrollView(
           headerSliverBuilder: (_, innerBoxIsScrolled) {

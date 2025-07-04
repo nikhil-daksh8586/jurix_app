@@ -4,11 +4,15 @@ import 'package:jurix_app/common/widgets/appbar/appbar.dart';
 import 'package:jurix_app/common/widgets/custom_shapes/container/primary_header_container.dart';
 import 'package:jurix_app/common/widgets/list_tiles/setting_menu_tile.dart';
 import 'package:jurix_app/common/widgets/text/section_heading.dart';
+import 'package:jurix_app/features/personalization/screens/address/address.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 
 import '../../../../common/widgets/list_tiles/user_profile_tile.dart';
 import '../../../../utils/constants/text _strings.dart';
+import 'package:get/get.dart';
+
+import '../../../shop/screens/cart/cart.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -56,11 +60,13 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.safe_home,
                     title: 'My Address',
                     subTitle: 'Set Shoping delivery address',
+                    onTap: () => Get.to(() => const UserAddressScreen()),
                   ),
                   TSettingMenuTile(
                     icon: Iconsax.shopping_cart,
                     title: 'My Cart',
                     subTitle: 'Add, remove products and move to checkout',
+                    onTap: () => Get.to(() => const CartScreen()),
                   ),
                   TSettingMenuTile(
                     icon: Iconsax.bag_tick,

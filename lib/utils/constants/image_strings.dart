@@ -46,4 +46,9 @@ class TImages {
   static const String shoeImage2 = "assets/images/product/shoeImage2.png";
   static const String shoeImage3 = "assets/images/product/shoeImage3.png";
 
+  // -- Product Reviews
+  static const String userProfileImage1 = "";
+  static const String userProfileImage2 = "";
+  static const String userProfileImage3 = "";
+
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:jurix_app/common/widgets/custom_shapes/container/circular_container.dart';
 
 import '../../../utils/constants/colors.dart';
+import '../../../utils/helpers/helper_functions.dart';
 
 class TChoiceChip extends StatelessWidget {
   const TChoiceChip({
@@ -17,15 +18,18 @@ class TChoiceChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isColor = THelperFunctions.getColor(text) != null;
     return ChoiceChip(
-      label: Text(''),
+      label: isColor ? const SizedBox() : Text(text),
       selected: selected,
       onSelected: onSelected,
       labelStyle: TextStyle(color: selected ? TColors.white : null),
-      avatar: TCircularContainer(width: 50, height: 50, backgroundColor: Colors.green,),
-      shape: CircleBorder(),
-      labelPadding: EdgeInsets.all(0),
-      backgroundColor: Colors.green,
+      avatar: isColor ? TCircularContainer(width: 50, height: 50, backgroundColor: THelperFunctions.getColor(text)!) : null,
+      shape: isColor ? CircleBorder() : null,
+      labelPadding: isColor ? EdgeInsets.all(0) : null,
+      padding: isColor ? EdgeInsets.all(0) : null,
+      backgroundColor: isColor ? THelperFunctions.getColor(text) : null,
+
     );
   }
 }
