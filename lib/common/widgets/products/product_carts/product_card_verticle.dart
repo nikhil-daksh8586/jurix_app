@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/common/styles/shadows.dart';
 import 'package:jurix_app/common/widgets/custom_shapes/container/rounded_container.dart';

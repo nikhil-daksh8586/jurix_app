@@ -51,4 +51,14 @@ class TImages {
   static const String userProfileImage2 = "";
   static const String userProfileImage3 = "";
 
+  // -- Payment Method Icons
+  static const String paypal = "assets/icons/payment_icons/paypal-48.png";
+  static const String applePay = "";
+  static const String googlePay = "";
+  static const String masterCard = "";
+  static const String vise = "";
+  static const String payStock = "";
+  static const String paytm = "";
+  static const String successfulPaymentIcon = "";
+
 }

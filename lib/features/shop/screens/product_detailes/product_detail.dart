@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:jurix_app/common/widgets/appbar/appbar.dart';
-import 'package:jurix_app/common/widgets/custom_shapes/curved_edges/curved_edge_widget.dart';
-import 'package:jurix_app/common/widgets/icon/t_circular_icon.dart';
-import 'package:jurix_app/common/widgets/images/T_rounded_image.dart';
 import 'package:jurix_app/common/widgets/text/section_heading.dart';
 import 'package:jurix_app/features/shop/screens/product_detailes/widgets/bottom_add_to_cart_widget.dart';
 import 'package:jurix_app/features/shop/screens/product_detailes/widgets/product_attributes.dart';
@@ -16,8 +11,6 @@ import 'package:jurix_app/features/shop/screens/product_reviews/product_reviews.
 import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:readmore/readmore.dart';
 
-import '../../../../utils/constants/colors.dart';
-import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/helpers/helper_functions.dart';
 
 class ProductDetail extends StatelessWidget {

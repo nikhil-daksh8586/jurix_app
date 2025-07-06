@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/common/widgets/appbar/appbar.dart';
-import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 
 class AddNewAddressScreen extends StatelessWidget {

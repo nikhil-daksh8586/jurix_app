@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:jurix_app/common/widgets/custom_shapes/container/rounded_container.dart';
 import 'package:jurix_app/features/personalization/screens/address/widgets/single_address.dart';
 
 import '../../../../common/widgets/appbar/appbar.dart';

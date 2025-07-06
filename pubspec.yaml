@@ -90,6 +90,7 @@ flutter:
     - assets/images/animated_images/
     - assets/images/banners/
     - assets/images/product/
+    - assets/icons/payment_icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
