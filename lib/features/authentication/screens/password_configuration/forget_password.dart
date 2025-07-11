@@ -4,7 +4,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/features/authentication/screens/password_configuration/reset_password.dart';
 
 import '../../../../utils/constants/sizes.dart';
-import '../../../../utils/constants/text _strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 
 class ForgetPassword extends StatelessWidget {
   const ForgetPassword({super.key});

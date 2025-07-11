@@ -11,14 +11,11 @@ import 'package:jurix_app/features/shop/screens/product_reviews/product_reviews.
 import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:readmore/readmore.dart';
 
-import '../../../../utils/helpers/helper_functions.dart';
-
 class ProductDetail extends StatelessWidget {
   const ProductDetail({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
     return Scaffold(
       bottomNavigationBar: TBottomAddToCart(),
       body: SingleChildScrollView(
@@ -81,7 +78,7 @@ class ProductDetail extends StatelessWidget {
                     ],
                   ),
 
-                  const SizedBox(height: TSizes.spaceBtwSections,),
+                  const SizedBox(height: TSizes.spaceBtwSections),
 
                 ],
               ),

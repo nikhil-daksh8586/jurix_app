@@ -9,14 +9,13 @@ import '../../../../../common/widgets/custom_shapes/container/rounded_container.
 import '../../../../../common/widgets/text/product_title_text.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
-import '../../../../../utils/helpers/helper_functions.dart';
 
 class TProductMataData extends StatelessWidget {
   const TProductMataData({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final darkMode = THelperFunctions.isDarkMode(context);
+    // final darkMode = THelperFunctions.isDarkMode(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

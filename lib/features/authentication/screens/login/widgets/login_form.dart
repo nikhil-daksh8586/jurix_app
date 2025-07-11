@@ -5,7 +5,7 @@ import 'package:jurix_app/features/authentication/screens/password_configuration
 
 import '../../../../../navigation_menu.dart';
 import '../../../../../utils/constants/sizes.dart';
-import '../../../../../utils/constants/text _strings.dart';
+import '../../../../../utils/constants/text_strings.dart';
 import '../../signup/signup.dart';
 
 class TLoginForm extends StatelessWidget {

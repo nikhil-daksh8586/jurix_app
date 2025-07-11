@@ -59,6 +59,6 @@ class TImages {
   static const String vise = "";
   static const String payStock = "";
   static const String paytm = "";
-  static const String successfulPaymentIcon = "";
+  static const String successfulPaymentIcon = "assets/icons/icons8-successscreen-64.png";
 
 }

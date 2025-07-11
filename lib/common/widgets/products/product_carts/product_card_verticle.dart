@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/common/styles/shadows.dart';
 import 'package:jurix_app/common/widgets/custom_shapes/container/rounded_container.dart';
-import 'package:jurix_app/common/widgets/images/T_rounded_image.dart';
+import 'package:jurix_app/common/widgets/images/t_rounded_image.dart';
 import 'package:jurix_app/common/widgets/text/product_title_text.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/constants/image_strings.dart';
@@ -89,6 +89,7 @@ class TProductCardVerticle extends StatelessWidget {
                   padding: const EdgeInsets.only(left: TSizes.sm),
                   child: const TProductPriceText(price: '35.0',),
                 ),
+
                 /// add to cart button section
                 Container(
                   decoration: BoxDecoration(

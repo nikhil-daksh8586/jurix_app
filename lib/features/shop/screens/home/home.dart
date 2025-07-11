@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jurix_app/common/widgets/products/product_carts/product_card_verticle.dart';
+import 'package:jurix_app/features/shop/screens/all_product/all_product.dart';
 import 'package:jurix_app/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:jurix_app/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:jurix_app/features/shop/screens/home/widgets/promo_slider.dart';
@@ -10,6 +11,7 @@ import '../../../../common/widgets/custom_shapes/container/primary_header_contai
 import '../../../../common/widgets/custom_shapes/container/search_container.dart';
 import '../../../../common/widgets/layouts/grid_layout.dart';
 import '../../../../common/widgets/text/section_heading.dart';
+import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -70,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: TSizes.spaceBtwSections),
                   
                   /// Heading
-                  TSectionHeading(title: 'Popular Products'),
+                  TSectionHeading(title: 'Popular Products', onPressed: () => Get.to(() => const AllProducts()),),
                   const SizedBox(height: TSizes.spaceBtwSections),
 
                   /// --- Popular Products ---

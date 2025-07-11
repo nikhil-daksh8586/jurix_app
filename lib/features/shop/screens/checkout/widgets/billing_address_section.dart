@@ -17,11 +17,16 @@ class TBillingAddressSection extends StatelessWidget {
           children: [
             const Icon(Icons.phone, color: Colors.grey, size: 16,),
             const SizedBox(width: TSizes.spaceBtwItems,),
-
-            Text('+91 9650127568', style: Theme.of(context).textTheme.titleMedium)
+            Text('+91 9650127568', style: Theme.of(context).textTheme.bodyMedium)
           ],
-        )
-
+        ),
+        Row(
+          children: [
+            const Icon(Icons.location_history, color: Colors.grey, size: 16,),
+            const SizedBox(width: TSizes.spaceBtwItems,),
+            Expanded(child: Text('Kabir Nagar Sangam Park, Rana Pratap Bagh', style: Theme.of(context).textTheme.bodyMedium, softWrap: true,))
+          ],
+        ),
       ],
     );
   }

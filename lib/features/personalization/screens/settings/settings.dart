@@ -5,11 +5,12 @@ import 'package:jurix_app/common/widgets/custom_shapes/container/primary_header_
 import 'package:jurix_app/common/widgets/list_tiles/setting_menu_tile.dart';
 import 'package:jurix_app/common/widgets/text/section_heading.dart';
 import 'package:jurix_app/features/personalization/screens/address/address.dart';
+import 'package:jurix_app/features/shop/screens/order/order.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 
 import '../../../../common/widgets/list_tiles/user_profile_tile.dart';
-import '../../../../utils/constants/text _strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 import 'package:get/get.dart';
 
 import '../../../shop/screens/cart/cart.dart';
@@ -72,6 +73,7 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subTitle: 'In-progress and completed orders',
+                    onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   TSettingMenuTile(
                     icon: Iconsax.bank,

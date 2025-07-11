@@ -5,7 +5,7 @@ import 'package:jurix_app/features/shop/controllers/home_controller.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 
 import '../../../../../common/widgets/custom_shapes/container/circular_container.dart';
-import '../../../../../common/widgets/images/T_rounded_image.dart';
+import '../../../../../common/widgets/images/t_rounded_image.dart';
 import '../../../../../utils/constants/sizes.dart';
 
 class TPromoSlider extends StatelessWidget {

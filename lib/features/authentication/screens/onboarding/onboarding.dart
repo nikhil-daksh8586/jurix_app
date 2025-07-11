@@ -6,7 +6,7 @@ import 'package:jurix_app/features/authentication/screens/onboarding/widgets/onb
 import 'package:jurix_app/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
 
 import '../../../../utils/constants/image_strings.dart';
-import '../../../../utils/constants/text _strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 import '../../controllers/onboarding/onboarding_controller.dart';
 
 class OnBoardingScreen extends StatelessWidget {

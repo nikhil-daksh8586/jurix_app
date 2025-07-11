@@ -5,7 +5,7 @@ import 'package:jurix_app/utils/helpers/helper_functions.dart';
 import '../../../../../common/widgets/appbar/appbar.dart';
 import '../../../../../common/widgets/custom_shapes/curved_edges/curved_edge_widget.dart';
 import '../../../../../common/widgets/icon/t_circular_icon.dart';
-import '../../../../../common/widgets/images/T_rounded_image.dart';
+import '../../../../../common/widgets/images/t_rounded_image.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/constants/sizes.dart';

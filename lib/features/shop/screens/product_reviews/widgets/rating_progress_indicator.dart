@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jurix_app/features/shop/screens/product_reviews/widgets/progress_indicator_%20and_rating.dart';
+import 'package:jurix_app/features/shop/screens/product_reviews/widgets/progress_indicator_and_rating.dart';
 
 
 class OverallProductRating extends StatelessWidget {

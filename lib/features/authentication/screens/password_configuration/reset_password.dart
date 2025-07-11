@@ -2,9 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:get/get.dart';
-import 'package:jurix_app/utils/constants/text%20_strings.dart';
-
 import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/text_strings.dart';
 import '../../../../utils/helpers/helper_functions.dart';
 
 class ResetPassword extends StatelessWidget {

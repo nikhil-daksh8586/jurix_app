@@ -4,7 +4,7 @@ import 'package:jurix_app/features/shop/screens/cart/cart.dart';
 import '../../../../../common/widgets/appbar/appbar.dart';
 import '../../../../../common/widgets/products/cart/cart_menu_icon.dart';
 import '../../../../../utils/constants/colors.dart';
-import '../../../../../utils/constants/text _strings.dart';
+import '../../../../../utils/constants/text_strings.dart';
 import 'package:get/get.dart';
 
 class THomeAppBar extends StatelessWidget {

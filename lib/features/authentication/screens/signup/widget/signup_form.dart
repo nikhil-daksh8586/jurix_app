@@ -4,7 +4,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:jurix_app/features/authentication/screens/signup/widget/terms_conditions_checkbox.dart';
 
 import '../../../../../utils/constants/sizes.dart';
-import '../../../../../utils/constants/text _strings.dart';
+import '../../../../../utils/constants/text_strings.dart';
 import '../verify_email.dart';
 class TSignupForm extends StatelessWidget {
   const TSignupForm({
@@ -46,7 +46,7 @@ class TSignupForm extends StatelessWidget {
           /// Username
           TextFormField(
             decoration: const InputDecoration(
-              labelText: TTexts.Username,
+              labelText: TTexts.username,
               prefixIcon: Icon(Iconsax.user_edit),
             ),
           ),

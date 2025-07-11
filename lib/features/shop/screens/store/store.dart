@@ -6,6 +6,7 @@ import 'package:jurix_app/common/widgets/custom_shapes/container/search_containe
 import 'package:jurix_app/common/widgets/layouts/grid_layout.dart';
 import 'package:jurix_app/common/widgets/products/cart/cart_menu_icon.dart';
 import 'package:jurix_app/common/widgets/text/section_heading.dart';
+import 'package:jurix_app/features/shop/screens/brand/all_brands.dart';
 import 'package:jurix_app/utils/constants/colors.dart';
 import 'package:jurix_app/utils/constants/sizes.dart';
 import 'package:jurix_app/utils/helpers/helper_functions.dart';
@@ -59,7 +60,7 @@ class StoreScreen extends StatelessWidget {
                       /// -- feature Brands
                       TSectionHeading(
                         title: 'Featured Brands',
-                        onPressed: () {},
+                        onPressed: () => Get.to(() => const AllBrandsScreen()),
                       ),
                       const SizedBox(height: TSizes.spaceBtwItems / 1.5),
 

@@ -4,7 +4,7 @@ import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/helpers/helper_functions.dart';
-import '../../images/T_rounded_image.dart';
+import '../../images/t_rounded_image.dart';
 import '../../text/product_title_text.dart';
 import '../../text/t_brand_title_text_with_verified_icon.dart';
 
